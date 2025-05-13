@@ -3,6 +3,7 @@ namespace lab4
     public partial class Form1 : Form
     {
         private Image image;
+        private int currentAngle = 0;
         private bool IsOnlyGreen = false;
 
         public Form1()
@@ -21,84 +22,6 @@ namespace lab4
                 pictureBox1.Image = image;
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         private void button3_Click(object sender, EventArgs e)
         {
