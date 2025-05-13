@@ -30,6 +30,7 @@
         {
             pictureBox1 = new PictureBox();
             button1 = new Button();
+            button3 = new Button();
             button2 = new Button();
             radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
@@ -121,6 +122,16 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // button3
+            // 
+            button3.Location = new Point(52, 318);
+            button3.Name = "button3";
+            button3.Size = new Size(112, 34);
+            button3.TabIndex = 2;
+            button3.Text = "OnlyGreen";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -132,6 +143,7 @@
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
             Controls.Add(button2);
+            Controls.Add(button3);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Name = "Form1";
@@ -151,5 +163,6 @@
         private RadioButton radioButton3;
         private Button button4;
         private Button button5;
+        private Button button3;
     }
 }
